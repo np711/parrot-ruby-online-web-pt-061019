@@ -1,6 +1,5 @@
 require_relative './spec_helper'
-require_relative '../parrot.rb' #parrot
-#outputs "Squawk!"
+require_relative '../parrot.rb' 
 
 describe '#parrot' do
   it 'should output "Squawk!" to the terminal when called without any arguments' do
